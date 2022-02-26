@@ -2,7 +2,7 @@
     "tokenId": 0,
     "name": "SpaceCraft NFT #0",
     "description": "Just Show Up !",
-    "image": "https://github.com/amirhm95/SpaceCraftNft/blob/master/assets/SpaceCraftNft_0.png",
+    "image":    "https://raw.githubusercontent.com/amirhm95/SpaceCraftNft/master/assets/SpaceCraftNft_0.png",
     "external_url": "https://github.com/amirhm95/SpaceCraftNft",
     "attributes": [
         {

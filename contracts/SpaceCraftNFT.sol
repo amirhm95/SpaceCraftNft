@@ -2,6 +2,7 @@ pragma solidity >=0.6.0 <0.9.0;
 
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/build/contracts/Strings.json";
 
 
 contract SpaceCraftNft is ERC721 {
@@ -17,7 +18,7 @@ contract SpaceCraftNft is ERC721 {
   }
 
  function tokenURI(uint256 tokenId) public pure override returns (string memory) {
-    return string(abi.encodePacked("https://github.com/amirhm95/SpaceCraftNft/blob/master/assets/SpaceCraftNft_", tokenId , ".json"));
+    return string(abi.encodePacked("https://raw.githubusercontent.com/amirhm95/SpaceCraftNft/master/assets/SpaceCraftNft_", Strings.toString(tokenId), ".json"));
 
 
    }
