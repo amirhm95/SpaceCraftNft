@@ -1,0 +1,13 @@
+{
+    "tokenId": 1,
+    "name": "SpaceCraft NFT #1",
+    "description": "Just Show Up !",
+    "image": "https://github.com/amirhm95/SpaceCraftNft/blob/master/assets/SpaceCraftNft_1.png",
+    "external_url": "https://github.com/amirhm95/SpaceCraftNft",
+    "attributes": [
+        {
+            "trait_type": "eyes",
+            "value": "orange"
+        }
+    ]
+}

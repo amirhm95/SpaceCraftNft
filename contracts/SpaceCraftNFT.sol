@@ -15,7 +15,11 @@ contract SpaceCraftNft is ERC721 {
     totalSupply += 1;
 
   }
-  
- 
+
+ function tokenURI(uint256 tokenId) public pure override returns (string memory) {
+    return string(abi.encodePacked("https://github.com/amirhm95/SpaceCraftNft/blob/master/assets/SpaceCraftNft_", tokenId , ".json"));
+
+
+   }
 
 }
